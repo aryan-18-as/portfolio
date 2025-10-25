@@ -58,6 +58,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Location</p>
+                    <p className="text-muted-foreground">41 Tagore Nagar University Road</p>
                     <p className="text-muted-foreground">Gwalior, India</p>
                   </div>
                 </div>

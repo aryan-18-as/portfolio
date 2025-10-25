@@ -62,6 +62,11 @@ const Education = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {[
                     "Google Data Analytics Professional Certificate",
+                    "Career Essentials in Data Analysis by Microsoft and LinkedIn",
+                    "Learning Data Analytics: 1 Foundations",
+                    "Learning Data Analytics Part 2: Extending and Applying Core Knowledge",
+                    "Tata Group - Data Visualisation Job Simulation",
+                    "PwC Switzerland - Power BI Job Simulation",
                     "AICTE-Google AI/ML Virtual Internship",
                     "SQL for Data Analytics - Udemy",
                     "HackerRank Python (Intermediate)",
