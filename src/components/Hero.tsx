@@ -53,7 +53,7 @@ const Hero = () => {
                 size="lg"
                 className="bg-white text-primary hover:bg-white/90 shadow-lg"
               >
-                <a href="#contact">
+                <a href="mailto:aryansaxena154@gmail.com">
                   <Mail className="mr-2 h-5 w-5" />
                   Get In Touch
                 </a>
