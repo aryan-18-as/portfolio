@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profilePhoto from "@/assets/profile-photo.png";
 
 const Hero = () => {
   return (
@@ -16,10 +17,12 @@ const Hero = () => {
           <div className="flex-shrink-0 animate-fade-in">
             <div className="relative">
               <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full bg-gradient-to-br from-accent to-secondary p-1 shadow-glow">
-                <div className="w-full h-full rounded-full bg-card flex items-center justify-center overflow-hidden">
-                  <div className="w-full h-full bg-muted flex items-center justify-center text-muted-foreground">
-                    <span className="text-6xl font-bold">AS</span>
-                  </div>
+                <div className="w-full h-full rounded-full overflow-hidden">
+                  <img 
+                    src={profilePhoto} 
+                    alt="Aryan Saxena - Data Analyst"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
               {/* Decorative ring */}
