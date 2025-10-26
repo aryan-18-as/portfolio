@@ -38,7 +38,11 @@ const Navigation = () => {
           {/* Logo */}
           <a 
             href="#" 
-            className="text-xl md:text-2xl font-bold gradient-accent bg-clip-text text-transparent hover:scale-105 transition-transform"
+            className={`text-xl md:text-2xl font-bold transition-all hover:scale-105 ${
+              isScrolled 
+                ? "gradient-accent bg-clip-text text-transparent" 
+                : "text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]"
+            }`}
           >
             Aryan Saxena
           </a>
