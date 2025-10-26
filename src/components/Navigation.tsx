@@ -40,7 +40,7 @@ const Navigation = () => {
             href="#" 
             className={`text-xl md:text-2xl font-bold transition-all hover:scale-105 ${
               isScrolled 
-                ? "gradient-accent bg-clip-text text-transparent" 
+                ? "text-foreground" 
                 : "text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]"
             }`}
           >
