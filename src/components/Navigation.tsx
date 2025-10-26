@@ -38,9 +38,9 @@ const Navigation = () => {
           {/* Logo */}
           <a 
             href="#" 
-            className="text-2xl font-bold gradient-accent bg-clip-text text-transparent hover:scale-105 transition-transform"
+            className="text-xl md:text-2xl font-bold gradient-accent bg-clip-text text-transparent hover:scale-105 transition-transform"
           >
-            AS
+            Aryan Saxena
           </a>
 
           {/* Desktop Navigation */}
