@@ -93,19 +93,7 @@ const Contact = () => {
                     </a>
                   </Button>
 
-                  <Button 
-                    asChild
-                    className="w-full justify-start"
-                    variant="outline"
-                  >
-                    <a href="https://unique-llama-0b5d75.netlify.app/" target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="mr-3 h-5 w-5" />
-                      Portfolio Website
-                      <ExternalLink className="ml-auto h-4 w-4" />
-                    </a>
-                  </Button>
-
-                  <Button 
+                  <Button
                     asChild
                     className="w-full justify-start gradient-hero text-white hover:opacity-90"
                   >
