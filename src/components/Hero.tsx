@@ -16,17 +16,23 @@ const Hero = () => {
           {/* Photo Section */}
           <div className="flex-shrink-0 animate-fade-in">
             <div className="relative">
-              <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full bg-gradient-to-br from-accent to-secondary p-1 shadow-glow">
-                <div className="w-full h-full rounded-full overflow-hidden">
-                  <img 
-                    src={profilePhoto} 
-                    alt="Aryan Saxena - Data Analyst"
-                    className="w-full h-full object-cover"
-                  />
+              <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-2xl bg-gradient-to-br from-accent via-primary to-secondary p-1 shadow-glow">
+                <div className="w-full h-full rounded-2xl bg-background/95 backdrop-blur-sm flex items-center justify-center overflow-hidden">
+                  <div className="text-center p-6">
+                    <div className="text-5xl lg:text-6xl font-bold bg-gradient-to-br from-accent via-primary to-secondary bg-clip-text text-transparent mb-2">
+                      AS
+                    </div>
+                    <div className="text-lg lg:text-xl font-semibold text-foreground">
+                      Aryan Saxena
+                    </div>
+                    <div className="text-sm text-muted-foreground mt-1">
+                      Data Analyst
+                    </div>
+                  </div>
                 </div>
               </div>
               {/* Decorative ring */}
-              <div className="absolute inset-0 rounded-full border-4 border-accent/30 animate-pulse" style={{ animationDuration: "3s" }}></div>
+              <div className="absolute inset-0 rounded-2xl border-4 border-accent/30 animate-pulse" style={{ animationDuration: "3s" }}></div>
             </div>
           </div>
 
